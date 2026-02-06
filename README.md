@@ -23,7 +23,7 @@
 
 *   **Android OS:** Android 8.1 - Android 16 Beta 2
 *   **Rooted:** Xposed Framework (LSPosed, etc.)
-*   **Non-Rooted:** Supported via LSPatch (requires manually embedding the module)
+*   **Non-Rooted:** Supported via NPatch (requires manually embedding the module)
 *   **Dependencies:** Google Play Services (GMS) is required for Maps and Location services.
 
 ## Key Features
