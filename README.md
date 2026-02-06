@@ -1,56 +1,33 @@
+<div align="center">
+
 # Fork Moving GPS
 
-[![Stars](https://img.shields.io/github/stars/HSSkyBoy/Fork-Moving-GPS)](https://github.com/HSSkyBoy/Fork-Moving-GPS/stargazers)
-[![GitHub](https://img.shields.io/github/downloads/HSSkyBoy/Fork-Moving-GPS/total?label=GitHub&logo=GitHub)](https://github.com/HSSkyBoy/Fork-Moving-GPS/releases)
-[![release](https://img.shields.io/github/v/release/HSSkyBoy/Fork-Moving-GPS)](https://github.com/HSSkyBoy/Fork-Moving-GPS/releases)
-[![build](https://img.shields.io/github/actions/workflow/status/HSSkyBoy/Fork-Moving-GPS/apk.yml)](https://github.com/HSSkyBoy/Fork-Moving-GPS/actions/workflows/apk.yml)
-[![license](https://img.shields.io/github/license/HSSkyBoy/Fork-Moving-GPS)](https://github.com/HSSkyBoy/Fork-Moving-GPS/blob/master/LICENSE)
-[![issues](https://img.shields.io/github/issues/HSSkyBoy/Fork-Moving-GPS)](https://github.com/HSSkyBoy/Fork-Moving-GPS/issues)
+[![Stars](https://img.shields.io/github/stars/HSSkyBoy/Fork-Moving-GPS?style=flat-square)](https://github.com/HSSkyBoy/Fork-Moving-GPS/stargazers)
+[![Downloads](https://img.shields.io/github/downloads/HSSkyBoy/Fork-Moving-GPS/total?label=Downloads&logo=GitHub&style=flat-square)](https://github.com/HSSkyBoy/Fork-Moving-GPS/releases)
+[![Release](https://img.shields.io/github/v/release/HSSkyBoy/Fork-Moving-GPS?style=flat-square)](https://github.com/HSSkyBoy/Fork-Moving-GPS/releases)
+[![Build](https://img.shields.io/github/actions/workflow/status/HSSkyBoy/Fork-Moving-GPS/apk.yml?style=flat-square)](https://github.com/HSSkyBoy/Fork-Moving-GPS/actions/workflows/apk.yml)
+[![License](https://img.shields.io/github/license/HSSkyBoy/Fork-Moving-GPS?style=flat-square)](https://github.com/HSSkyBoy/Fork-Moving-GPS/blob/master/LICENSE)
 
-A GPS setter based on the Xposed framework. This fork is the module to achieve support for Android 15+ with its sources available.
+<p>
+    A GPS setter based on the Xposed framework.<br>
+    This fork is the module to achieve support for <b>Android 15+</b> with its sources code available.
+</p>
 
-## Releases
+<a href="https://github.com/HSSkyBoy/Fork-Moving-GPS/releases">
+    <img src="https://raw.githubusercontent.com/NeoApplications/Neo-Backup/refs/heads/main/badge_github.png" alt="Get it on GitHub" height="80">
+</a>
 
-<table>
-    <tr>
-        <th>Version</th>
-        <th>app-full-*.apk</th>
-        <th>app-foss-*.apk</th>
-    </tr>
-    <tr>
-        <th>Maps Library</th>
-        <td>GMS (com.google.android.gms:play-services-maps)</td>
-        <td>MapLibre (org.maplibre.gl:android-sdk)</td>
-    </tr>
-    <tr>
-        <th>Fused Location</th>
-        <td>GMS (com.google.android.gms:play-services-location)</td>
-        <td>microG (org.microg.gms:play-services-location)</td>
-    </tr>
-    <tr>
-        <th>Distribution</th>
-        <td>
-            <a href="https://github.com/hsskyboy/forkmovinggps/releases">
-                <img
-                    src="https://raw.githubusercontent.com/NeoApplications/Neo-Backup/refs/heads/main/badge_github.png"
-                    alt="Get it on GitHub" width="200" />
-            </a>
-        </td>
-        <td>
-            <a href="https://f-droid.org/packages/io.github.mwarevn.forkmovinggps">
-                <img
-                    src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
-                    alt="Get it on F-Droid" width="200" />
-            </a>
-        </td>
-    </tr>
-</table>
+</div>
 
-<!--
-[<img src="https://raw.githubusercontent.com/NeoApplications/Neo-Backup/refs/heads/main/badge_github.png" alt="Get it on GitHub" height="80">](https://github.com/HSSkyBoy/Fork-Moving-GPS/releases)
-[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid" height="80">]()
-[<img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" height="80">]()
--->
+## Variant Comparison
+
+Choose the version that suits your needs from the [Releases](https://github.com/HSSkyBoy/Fork-Moving-GPS/releases) page:
+
+| Feature | `app-full-*.apk` | `app-foss-*.apk` |
+| :--- | :--- | :--- |
+| **Target Audience** | Standard Google Users | Open Source / De-Googled Users |
+| **Maps Library** | GMS (Google Maps) | MapLibre |
+| **Fused Location** | GMS (Play Services) | microG |
 
 ## Motivation
 
